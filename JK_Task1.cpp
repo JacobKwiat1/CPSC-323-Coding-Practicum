@@ -75,8 +75,8 @@ int main() {
 
     //analyze and output
     if(A.analyze(arr)) {
-        std::cout << "Valid";
+        std::cout << "ACCEPTED";
     } else {
-        std::cout << "Invalid";
+        std::cout << "REJECTED";
     }
 }
